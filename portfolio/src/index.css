@@ -10,6 +10,7 @@ body {
   font-family: 'Roboto', sans-serif;
   letter-spacing:4px;
   background-image: url("imgs/photo2.jpg");
+  background-attachment:fixed;
   
   
 }
@@ -160,7 +161,7 @@ button:hover {
 
   width:45%;
   border-radius:5px;
-  background-color:#00464e;
+  background-color:#002a2e;
   color:white;
   font-size:28px;
   margin-bottom:5%;
@@ -256,6 +257,97 @@ a {
   margin-right:20%;
   margin-top:1%;
   justify-content: left;
+
+}
+
+.projects-container {
+
+
+  display:flex;
+  flex-wrap: wrap;
+  width:45%;
+  background-color:#002a2e;
+  margin:5%;
+  border-radius:5px;
+
+
+}
+.project-container {
+
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  width:100%;
+
+
+}
+.project-img {
+
+  max-width:88%;
+  border-radius:5px;
+
+
+}
+.project-img-container {
+
+  display:flex;
+  justify-content: center;
+  width:100%;
+
+}
+.projects-title {
+
+  text-align:left;
+  font-size:28px;
+  font-weight:bold;
+  color:white;
+  padding:9% 0% 5% 6%;
+  text-decoration:underline;
+  
+}
+.project-desc {
+
+  
+  width:88%;
+  color: white;
+  letter-spacing:1px;
+  padding:3% 0% 0% 0%;
+  line-height:2;
+
+}
+.project-link {
+
+  width:100%;
+  color:white;
+  letter-spacing:1px;
+  padding:5% 0% 4% 6%;
+
+}
+.github-link {
+
+  width:100%;
+  color:white;
+  letter-spacing:1px;
+  padding:0% 0% 15% 6%;
+
+}
+.emphasis {
+
+  font-weight:bold;
+  font-size:115%;
+
+
+}
+.project-links {
+
+  border-bottom:1px dotted white;
+  transition: border-bottom 0.5s;
+
+}
+.project-links:hover {
+
+  
+  border-bottom:1px dotted rgba(0, 0, 0, 0);
 
 }
 
