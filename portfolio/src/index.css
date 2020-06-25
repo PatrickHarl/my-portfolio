@@ -5,9 +5,349 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height:100%;
+  background-position:center center;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing:4px;
+  background-image: url("imgs/photo2.jpg");
+  background-attachment:fixed;
+  
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.main {
+
+  
+  margin:0px;
+  padding:0px;
+  min-height:100vh;
+  max-height:100vh;
+  height:100vh;
+  z-index:-100;
+  
+  
+  
+
+}
+.container {
+
+  display:flex;
+  justify-content: center;
+  width:100%;
+  
+
+}
+
+.title-container {
+
+  display:flex;
+  text-align:center;
+  justify-content: center;
+  flex-wrap:wrap;
+  width:30%;
+  border-top:2px solid white;
+  border-bottom:2px solid white;
+  
+  
+
+}
+
+.name {
+
+  font-size:50px;
+  color:white;
+  width:100%;
+  margin-top:10%;
+  margin-bottom:3%;
+  font-weight:bold;
+  
+
+}
+
+.sub-name {
+
+  font-size:18px;
+  color:white;
+  width:100%;
+  margin-bottom:11%;
+
+}
+button {
+
+  border:1px solid white;
+  color:white;
+  width:175px;
+  height:60px;
+  background-color:rgba(0,0,0,0.0);
+  font-family: 'Roboto', sans-serif;
+  letter-spacing:4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  outline:none;
+  
+
+}
+button:hover {
+
+  background-color:rgba(255, 255, 255, 0.2);
+
+}
+.btn-projects {
+
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+}
+.btn-about {
+
+  border-left:none;
+  border-right:none;
+
+}
+.btn-contact {
+
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+}
+.divider {
+
+  width:100%;
+  height:75px;
+  display:flex;
+
+}
+.sub-divider-right {
+
+  width:50%;
+  height:100%;
+
+}
+.sub-divider-left {
+
+  width:50%;
+  height:100%;
+  border-right:1px solid white;
+
+}
+.main-img {
+
+  width:125px;
+  max-height:125px;
+  border-radius:100%;
+  border:1px solid white;
+
+}
+.img-container {
+
+  width:100%;
+  display:flex;
+  justify-content: center;
+  padding-top:8%;
+
+}
+.about-main {
+
+  display:flex;
+  justify-content:center;
+
+}
+.about-container {
+
+  width:45%;
+  border-radius:5px;
+  background-color:#002a2e;
+  color:white;
+  font-size:28px;
+  margin-bottom:5%;
+  margin-top:5%;
+
+}
+
+.about-inside {
+
+  margin:0% 6%;
+  display:flex;
+  flex-wrap:wrap;
+
+}
+
+.about-img {
+
+  max-width:100%;
+  border-radius:5px;
+  margin-top:6%;
+  filter:brightness(75%);
+
+}
+.about-text {
+
+  letter-spacing:1px;
+  font-size:18px;
+  margin-bottom:8%;
+  margin-top:6%;
+
+}
+.about-title {
+
+  letter-spacing:6px;
+  font-weight:bold;
+  text-decoration:underline;
+  padding-top:10%;
+
+}
+.about-home {
+
+  width:98%;
+  text-align:right;
+  font-size:12px;
+  letter-spacing:1px;
+  margin-right:5px;
+  margin-top:1%;
+
+
+}
+
+a {
+
+  text-decoration:none;
+  color:white;
+
+}
+.contact {
+
+  text-align:center;
+  color: white;
+  border-top:2px solid white;
+  border-bottom:2px solid white;
+  width:40%;
+  margin-top:17%;
+  font-size:20px;
+  letter-spacing:2px;
+  padding-bottom:15px;
+
+}
+.contact-title {
+
+  font-size:36px;
+  font-weight: bold;
+  letter-spacing:4px;
+  
+
+}
+.container-contact {
+
+  display:flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  width:100%;
+
+}
+.contact-home {
+
+  width:60%;
+  text-align:right;
+  font-size:12px;
+  letter-spacing:1px;
+  margin-right:20%;
+  margin-top:1%;
+  justify-content: left;
+
+}
+
+.projects-container {
+
+
+  display:flex;
+  flex-wrap: wrap;
+  width:45%;
+  background-color:#002a2e;
+  margin:5%;
+  border-radius:5px;
+
+
+}
+.project-container {
+
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  width:100%;
+
+
+}
+.project-img {
+
+  max-width:88%;
+  border-radius:5px;
+
+
+}
+.project-img-container {
+
+  display:flex;
+  justify-content: center;
+  width:100%;
+
+}
+.projects-title {
+
+  text-align:left;
+  font-size:28px;
+  font-weight:bold;
+  color:white;
+  padding:9% 0% 5% 6%;
+  text-decoration:underline;
+  
+}
+.project-desc {
+
+  
+  width:88%;
+  color: white;
+  letter-spacing:1px;
+  padding:3% 0% 0% 0%;
+  line-height:2;
+
+}
+.project-link {
+
+  width:100%;
+  color:white;
+  letter-spacing:1px;
+  padding:5% 0% 4% 6%;
+
+}
+.github-link {
+
+  width:100%;
+  color:white;
+  letter-spacing:1px;
+  padding:0% 0% 15% 6%;
+
+}
+.emphasis {
+
+  font-weight:bold;
+  font-size:115%;
+
+
+}
+.project-links {
+
+  border-bottom:1px dotted white;
+  transition: border-bottom 0.5s;
+
+}
+.project-links:hover {
+
+  
+  border-bottom:1px dotted rgba(0, 0, 0, 0);
+
+}
+
